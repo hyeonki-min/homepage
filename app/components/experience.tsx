@@ -63,7 +63,7 @@ Helm 기반 쿠버네티스 배포, JaCoCo+SonarQube 환경 설정 등 DevOps와
         </h3>
         <p className="mt-2 text-sm leading-normal">메타데이터 표준 등록 및 검색 플랫폼, 논문 공개 서비스, QA 챗봇 등 다양한 공공/학술 도메인 서비스를 개발했습니다.
 Spring Boot, JPA, Elasticsearch 기반 백엔드 설계와 Python+Django 기반 오픈소스 커스터마이징을 수행했으며,
-GRPC·Netty를 활용한 고성능 통신 서버와 ISO-11179 기반 메타데이터 모델링 경험이 있습니다.
+GRPC·Netty를 활용한 고성능 통신 서버와 ISO-11179 기반 메타데이터 모델링 경험이 있습니다. 또한 RDF와 TTL 형식의 온톨로지를 설계하고 지식베이스 검색 시스템을 구축한 경험이 있습니다.
 AWS EC2, Nginx, PostgreSQL 기반의 다수의 웹 서비스를 직접 배포하고 운영했습니다.
         </p>
         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">

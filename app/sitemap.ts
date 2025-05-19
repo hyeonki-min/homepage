@@ -1,6 +1,4 @@
-import { getBlogPosts } from 'app/blog/utils'
-
-export const baseUrl = 'https://portfolio-blog-starter.vercel.app'
+export const baseUrl = 'https://hyeonki-min.com'
 
 export default async function sitemap() {
 
