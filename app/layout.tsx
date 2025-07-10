@@ -14,7 +14,8 @@ export const metadata: Metadata = {
     default: 'Hyeonki Min',
     template: '%s | Hyeonki Min',
   },
-  description: 'Software Engineer, Hyeonki Min, Making the world run better through data.',
+  description: '소프트웨어 엔지니어, 개발자 민현기. 데이터 기반 사고로 비용 효율적이고 안정적인 시스템을 설계하고, 프론트엔드와 데브옵스를 아우르는 개발자입니다. Making the world run better through data.',
+  keywords: "개발자 민현기, 소프트웨어 엔지니어 민현기, backend developer, fullstack developer, DevOps, making the world run better through data",
   openGraph: {
     title: 'Hyeonki Min',
     description: '소프트웨어 엔지니어·개발자 민현기',
