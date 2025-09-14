@@ -2,20 +2,20 @@ import Link from 'next/link'
 
 export function ProjectArchives() {
   let allProjects = [
-    {"slug": 44, "year": "2025", "project": "Hyeonki Min", "builtAt": "Fun", "builtWith": ["Next.js",], "link": ""},
+    {"slug": 44, "year": "2025", "project": "Hyeonki Min", "builtAt": "Fun", "builtWith": ["Next.js",], "link": "https://github.com/hyeonki-min/hyeonki"},
 
-    {"slug": 43, "year": "2024", "project": "의료 데이터 관리 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "airflow", "MariaDB", "Docker"], "link": "https://github.com/hyeonki-min/economins"},
-    {"slug": 42, "year": "2024", "project": "MRI기반 파킨슨병 진단 보조 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": "https://github.com/hyeonki-min/economins"},
+    {"slug": 43, "year": "2024", "project": "의료 데이터 관리 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "airflow", "MariaDB", "Docker"], "link": ""},
+    {"slug": 42, "year": "2024", "project": "MRI기반 파킨슨병 진단 보조 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": ""},
 
     {"slug": 41, "year": "2024", "project": "mididice.github.io", "builtAt": "Fun", "builtWith": ["TypeScript", "Next.js",], "link": "https://github.com/mididice/mididice.github.io"},
     {"slug": 40, "year": "2024", "project": "economins", "builtAt": "Fun", "builtWith": ["TypeScript", "Next.js"], "link": "https://github.com/hyeonki-min/economins"},
 
     {"slug": 39, "year": "2023", "project": "interplaytions-web", "builtAt": "Fun", "builtWith": ["TypeScript", "Phaser3", "Tone.js"], "link": "https://github.com/mididice/interplaytions-web"},
-    {"slug": 38, "year": "2023", "project": "관류 CT 기반 혈류역학 분석 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": "https://github.com/mididice/interplaytions-web"},
-    {"slug": 37, "year": "2022", "project": "비조영 CT 기반 뇌졸중 분석 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": "https://github.com/hyeonki-min/WZWYC"},
+    {"slug": 38, "year": "2023", "project": "관류 CT 기반 혈류역학 분석 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": ""},
+    {"slug": 37, "year": "2022", "project": "비조영 CT 기반 뇌졸중 분석 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": ""},
 
-    {"slug": 36, "year": "2022", "project": "퇴행성 뇌질환 분석 AI 솔루션", "builtAt": "Work", "builtWith": ["React", "Conerstone.js", "vtk.js"], "link": "https://github.com/hyeonki-min/WZWYC"},
-    {"slug": 35, "year": "2022", "project": "전이성 뇌종양 자동 분류 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": "https://github.com/hyeonki-min/WZWYC"},
+    {"slug": 36, "year": "2022", "project": "퇴행성 뇌질환 분석 AI 솔루션", "builtAt": "Work", "builtWith": ["React", "Conerstone.js", "vtk.js"], "link": ""},
+    {"slug": 35, "year": "2022", "project": "전이성 뇌종양 자동 분류 AI 솔루션", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "Docker"], "link": ""},
 
     {"slug": 34, "year": "2022", "project": "WZWYC", "builtAt": "Fun", "builtWith": ["React", "D3.js"], "link": "https://github.com/hyeonki-min/WZWYC"},
     {"slug": 33, "year": "2021", "project": "전사 서버 온습도전력 관리 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "RabbitMQ", "Grafana", "ElasticSearch", "k8s"], "link": ""},
@@ -24,8 +24,8 @@ export function ProjectArchives() {
     {"slug": 30, "year": "2021", "project": "휴양지 예약 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "k8s"], "link": ""},
 
     {"slug": 29, "year": "2021", "project": "mididice808", "builtAt": "Fun", "builtWith": ["React"], "link": ""},
-    {"slug": 28, "year": "2020", "project": "온콜 관제 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "k8s"], "link": "https://github.com/hyeonki-min/hyeonki"},
-    {"slug": 27, "year": "2020", "project": "방문자 안내 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "k8s"], "link": "https://github.com/hyeonki-min/hyeonki"},
+    {"slug": 28, "year": "2020", "project": "온콜 관제 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "k8s"], "link": ""},
+    {"slug": 27, "year": "2020", "project": "방문자 안내 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "MariaDB", "k8s"], "link": ""},
 
     {"slug": 26, "year": "2020", "project": "Doodlering", "builtAt": "Fun", "builtWith": ["ml5.js", "Go"], "link": "https://github.com/mididice/Doodlering"},
     {"slug": 25, "year": "2020", "project": "hyeonki", "builtAt": "Fun", "builtWith": ["Gatsby"], "link": "https://github.com/hyeonki-min/hyeonki"},
