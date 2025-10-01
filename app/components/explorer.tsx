@@ -24,15 +24,6 @@ export function Explorer() {
         - 정기적으로 최신 경제 이슈에 대한 공유와 정기적인 동향 리포트, 모의투자 대회 등을 통해 시장흐름을 체험하였고, 실제 기업의 재무구조나 산업의 방향성을 파악하는 연습도 병행해, 이러한 과정을 통해 회사를 단순한 조직이 아닌 경제적 주체로 바라보는 눈이 생겼고, 시장과 연결된 비즈니스를 입체적으로 이해할 수 있습니다.
         </p>
       </div>
-      <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2016 to 2020">2016 — 2020</header>
-      <div className="z-10 sm:col-span-6 mb-4">
-        <h3 className="font-medium leading-snug text-slate-200">
-        직장인 독서 모임 더리더스
-        </h3>
-        <p className="mt-2 text-sm leading-normal">
-        - 다양한 분야의 사람들과 책을 읽고 이야기를 나누면서, 평소 접하지 않았던 분야의 책을 읽으며 사고의 폭을 넓힐 수 있었고, 서로 다른 시선과 해석을 통해 지식이 더 깊어지고 다층적으로 연결되는 경험을  하였습니다.
-        </p>
-      </div>
       <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2017">2017</header>
       <div className="z-10 sm:col-span-6 mb-4">
         <h3 className="font-medium leading-snug text-slate-200">
@@ -40,6 +31,15 @@ export function Explorer() {
         </h3>
         <p className="mt-2 text-sm leading-normal">
         - 기획자, 디자이너, FE, BE가 함께 팀을 구성해 하나의 서비스를 만드는 과정에서 기획의 구체화부터 UI설계, 개발 협업, 피드백 까지 실무 흐름을 자연스럽게 익힐 수 있었습니다. 개발 지식은 물론 협업과 프로젝트 빌딩 감각까지 함께 얻은 경험이었습니다.
+        </p>
+      </div>
+      <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2016 to 2020">2016 — 2020</header>
+      <div className="z-10 sm:col-span-6 mb-4">
+        <h3 className="font-medium leading-snug text-slate-200">
+        직장인 독서 모임 더리더스
+        </h3>
+        <p className="mt-2 text-sm leading-normal">
+        - 다양한 분야의 사람들과 책을 읽고 이야기를 나누면서, 평소 접하지 않았던 분야의 책을 읽으며 사고의 폭을 넓힐 수 있었고, 서로 다른 시선과 해석을 통해 지식이 더 깊어지고 다층적으로 연결되는 경험을  하였습니다.
         </p>
       </div>
       <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2014">2014</header>
@@ -77,11 +77,19 @@ export function Explorer() {
         - 박스, 컨, 어셔 업무를 번갈아가며 맡아 다양한 고객을 응대하며 커뮤니케이션 능력을 기를 수 있었고, 동료들 간의 유기적인 협업으로 바쁜 시간에도 원할한 운영을 유지하는 방법을 배웠습니다.
         </p>
       </div>
-      <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2022 to 2011">2008 — 2011</header>
+      <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2022 to 2011">2009 — 2010</header>
+      <div className="z-10 sm:col-span-6 mb-4">
+        <h3 className="font-medium leading-snug text-slate-200">
+        6포병여단
+        </h3>
+        <p className="mt-2 text-sm leading-normal">
+        - 실사격과 화포 정비 그리고 극한 상황을 견디는 경험을 통해 꼼꼼함과 끈기를 기르고, 다양한 사람들과의 생활 속에서 세상을 바라보는 넓은 시야를 얻었습니다.
+        </p>
+      </div>
+      <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2022 to 2011">2008 — 2012</header>
       <div className="z-10 sm:col-span-6 mb-4">
         <h3 className="font-medium leading-snug text-slate-200">
         순수 미술 동아리 유채꽃
-
         </h3>
         <p className="mt-2 text-sm leading-normal">
         - 그림을 배우고 벽화 프로젝트에도 참여했습니다. 그림 실력은 미천하지만 흐름을 방해하지 않도록 밑작업과 정리를 맡아 함께 완성해 나가는 기쁨을 배웠습니다.
@@ -91,7 +99,6 @@ export function Explorer() {
       <div className="z-10 sm:col-span-6 mb-4">
         <h3 className="font-medium leading-snug text-slate-200">
         봉사 동아리 빛과 소금
-
         </h3>
         <p className="mt-2 text-sm leading-normal">
         - 누군가의 일상에 작은 온기가 되어주는 경험을 했습니다. 그 시간을 통해 타인의 삶을 들여다보고, 세상이 생각보다 더 다채롭고 복합적이라는 것을 배웠습니다.
