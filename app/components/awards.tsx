@@ -11,7 +11,7 @@ export function Awards() {
       </header>
       <div>
       <h3 className="font-medium leading-snug text-slate-200">
-      AWS SAA-C03 Associate
+      AWS Certified Solution Architect - Associate
       </h3>
       <p className="mt-2 text-sm leading-normal">-</p>
       </div>
