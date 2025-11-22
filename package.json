@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
+    "prebuild": "node scripts/generate-sitemap.js",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "npx serve out"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.1.5",

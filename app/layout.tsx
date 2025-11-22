@@ -6,10 +6,8 @@ import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
-import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
   title: {
     default: 'Hyeonki Min',
     template: '%s | Hyeonki Min',
@@ -19,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hyeonki Min',
     description: '소프트웨어 엔지니어·개발자 민현기',
-    url: baseUrl,
+    url: 'https://hyeonki-min.com',
     siteName: 'Hyeonki Min',
     locale: 'en_US',
     type: 'website',

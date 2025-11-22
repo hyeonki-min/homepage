@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 export function ProjectArchives() {
   let allProjects = [
+    {"slug": 45, "year": "2025", "project": "News-Bot", "builtAt": "Fun", "builtWith": ["Python", "Sentence Transformer"], "link": "https://github.com/hyeonki-min/news-bot"},
     {"slug": 44, "year": "2025", "project": "Hyeonki Min", "builtAt": "Fun", "builtWith": ["Next.js",], "link": "https://github.com/hyeonki-min/hyeonki"},
 
     {"slug": 43, "year": "2024", "project": "의료 데이터 관리 시스템", "builtAt": "Work", "builtWith": ["Java", "Spring", "airflow", "MariaDB", "Docker"], "link": ""},
