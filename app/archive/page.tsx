@@ -1,4 +1,4 @@
-import { ProjectArchives } from 'app/components/archives'
+import { ProjectArchives } from '@/components/archives'
 import Link from 'next/link'
 
 export const metadata = {

@@ -9,7 +9,9 @@ export function Explorer() {
       <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2017 to Present">2017 — Present</header>
       <div className="z-10 sm:col-span-6 mb-4">
         <h3 className="font-medium leading-snug text-slate-200">
-        미디어 아트 프로젝트팀 midiDICE
+          <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://mididice.github.io" target="_blank" rel="noreferrer noopener" aria-label="midiDICE">
+          미디어 아트 프로젝트팀 midiDICE
+          </Link>
         </h3>
         <p className="mt-2 text-sm leading-normal">
         - 생성 음악 기반 인터페이스 서버 및 프론트엔드, 전시용 인프라 구축 등 기술 구현 전반을 맡고 있습니다.

@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 export function ProjectArchives() {
   let allProjects = [
+    {"slug": 46, "year": "2025", "project": "economins-sam", "builtAt": "Fun", "builtWith": ["python", "AWS"], "link": "https://github.com/hyeonki-min/economins-sam"},
     {"slug": 45, "year": "2025", "project": "News-Bot", "builtAt": "Fun", "builtWith": ["Python", "Sentence Transformer"], "link": "https://github.com/hyeonki-min/news-bot"},
     {"slug": 44, "year": "2025", "project": "Hyeonki Min", "builtAt": "Fun", "builtWith": ["Next.js",], "link": "https://github.com/hyeonki-min/hyeonki"},
 
@@ -47,9 +48,9 @@ export function ProjectArchives() {
     {"slug": 11, "year": "2017", "project": "mididice", "builtAt": "Fun", "builtWith": ["Spring Boot", "jfugue", "timidity", "MIDI.js", "waveform.js"], "link": "https://github.com/mididice/mididice"},
     {"slug": 10, "year": "2017", "project": "건식이", "builtAt": "Fun", "builtWith": ["Android"], "link": ""},
     {"slug": 9, "year": "2017", "project": "neologism", "builtAt": "Fun", "builtWith": ["Spring"], "link": ""},
-    {"slug": 8, "year": "2016", "project": "자연어 처리 테스트 플랫폼", "builtAt": "Work", "builtWith": ["Java", "Spring", "MySQL"], "link": "https://github.com/hyeonki-min/highTemple"},
-    {"slug": 7, "year": "2016", "project": "영상 지식베이스 구축 지원 도구", "builtAt": "Work", "builtWith": ["Java", "Jena", "RDF", "MySQL"], "link": "https://github.com/hyeonki-min/highTemple"},
-    {"slug": 6, "year": "2016", "project": "전거통제구축도구", "builtAt": "Work", "builtWith": ["Java", "JavaScript", "MySQL"], "link": "https://github.com/hyeonki-min/highTemple"},
+    {"slug": 8, "year": "2016", "project": "자연어 처리 테스트 플랫폼", "builtAt": "Work", "builtWith": ["Java", "Spring", "MySQL"], "link": ""},
+    {"slug": 7, "year": "2016", "project": "영상 지식베이스 구축 지원 도구", "builtAt": "Work", "builtWith": ["Java", "Jena", "RDF", "MySQL"], "link": ""},
+    {"slug": 6, "year": "2016", "project": "전거통제구축도구", "builtAt": "Work", "builtWith": ["Java", "JavaScript", "MySQL"], "link": ""},
 
     {"slug": 5, "year": "2015", "project": "HighTemple", "builtAt": "Fun", "builtWith": ["Java", "Spring"], "link": "https://github.com/hyeonki-min/highTemple"},
     {"slug": 4, "year": "2015", "project": "Seoul Public Transport", "builtAt": "Fun", "builtWith": ["Java", "Spring"], "link": ""},
